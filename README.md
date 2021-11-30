@@ -17,7 +17,7 @@ https://www.autohotkey.com/docs/FAQ.htm#Startup
 ## Notes and Troubleshooting
 1. Notice that once you've paused, you're technically "not in the application". Switching context back to the application - that is, clicking within the application screen, would prevent you from resuming it.
 If you've accidentally clicked within the application screen, just alt-tab out of the game and then hit pause to resume the application.
-2. The script remaps the pause key - if you're using it for anything else, you can just choose another key by changing the line at the top of the script and reloading it.
+2. The script remaps the pause key - if you're using it for anything else, you can just choose another key by changing the line at the top of the script and reloading it. You can do this by right clicking on the AutoHotKey icon in the system tray (a big H) and choosing "Edit this script", and after correcting it, right clicking the icon again and choosing "Reload this script".
 
 ## What about Universal Pause Button?
 It's great! I love it. But since pause in UPB works in the context of the current application rather than outside of it, you basically can't resume an application once you've switched context from it. UPB is a good solution if you don't need to switch away from the game and just pause it and resume it - if that's the use case, you're probably better off using UPB since it's a single, simple install.
